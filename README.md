@@ -1,7 +1,6 @@
 # QuantumBotCore
 
-QuantumBotCore is a project designed to manage user sessions, add messages, and log events using Firebase Cloud Functions. It incorporates Firebase Authentication, Firestore, and JSON Web Tokens (JWT) for secure session handling.
-
+QuantumBotCore is a project designed to manage user sessions, add messages, and log events using Firebase Cloud Functions. 
 ## Setup
 
 ### Prerequisites
