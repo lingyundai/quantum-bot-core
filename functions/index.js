@@ -14,3 +14,9 @@
 //   logger.info("Hello logs!", {structuredData: true});
 //   response.send("Hello from Firebase!");
 // });
+const admin = require("firebase-admin");
+admin.initializeApp();
+
+const {addMessage} = require("./api/addMessage");
+
+exports.addMessage = addMessage;
